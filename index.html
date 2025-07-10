@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Modern Portfolio</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Google Fonts - Poppins -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg fixed-top" id="main-navbar">
+        <div class="container">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#skills">Skills</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#portfolio">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero-section d-flex align-items-center justify-content-center text-center">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h1 class="display-3 fw-bold mb-3 reveal fade-in-up">Hi, I'm <span class="text-primary" id="animated-name"></span></h1>
+                    <p class="lead mb-5 reveal fade-in-up" id="animated-subtitle"></p>
+                    <a href="#portfolio" class="btn btn-primary btn-lg custom-btn reveal fade-in-up">View My Work <i class="fas fa-arrow-right ms-2"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-section py-5">
+        <div class="container">
+            <h2 class="text-center mb-5 reveal fade-in-up">About Me</h2>
+            <div class="row align-items-center">
+                <div class="col-lg-6 mb-4 mb-lg-0 reveal fade-in-left">
+                    <img src="images/profile.jpeg" alt="About Me" class="img-fluid rounded shadow-lg">
+                </div>
+                <div class="col-lg-6 reveal fade-in-right">
+                    <p class="lead">I am a passionate web developer with a strong foundation in both front-end and back-end technologies. I specialize in building responsive, fast, and maintainable web applications that perform flawlessly across devices. My focus is on writing clean, scalable code and bringing complex functionality to life.With expertise in PHP, MySQL, JavaScript, and Laravel, I turn ideas into reliable, production-ready solutions. I'm also actively learning C# and .NET to expand my skillset and stay aligned with modern development trends. I'm committed to continuous improvement and building better, smarter, and more efficient applications.</p>
+                    <a href="downloads/resume.pdf" class="btn btn-primary custom-btn" download>Download Resume</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills-section py-5 bg-light-variant">
+        <div class="container">
+            <h2 class="text-center mb-5 reveal fade-in-up">My Skills</h2>
+            <div class="row text-center g-4">
+                <div class="col-md-4 col-sm-6 col-12 reveal fade-in-up" data-delay="0">
+                    <div class="skill-card p-4 rounded shadow">
+                        <i class="fab fa-html5 fa-3x mb-3 text-primary"></i>
+                        <h4 class="fw-bold">HTML5</h4>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 col-12 reveal fade-in-up" data-delay="100">
+                    <div class="skill-card p-4 rounded shadow">
+                        <i class="fab fa-css3-alt fa-3x mb-3 text-primary"></i>
+                        <h4 class="fw-bold">CSS3</h4>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 col-12 reveal fade-in-up" data-delay="200">
+                    <div class="skill-card p-4 rounded shadow">
+                        <i class="fab fa-js fa-3x mb-3 text-primary"></i>
+                        <h4 class="fw-bold">JavaScript</h4>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 col-12 reveal fade-in-up" data-delay="300">
+                    <div class="skill-card p-4 rounded shadow">
+                        <i class="fab fa-bootstrap fa-3x mb-3 text-primary"></i>
+                        <h4 class="fw-bold">Bootstrap 5</h4>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 col-12 reveal fade-in-up" data-delay="400">
+                    <div class="skill-card p-4 rounded shadow">
+                        <i class="fab fa-git-alt fa-3x mb-3 text-primary"></i>
+                        <h4 class="fw-bold">Git</h4>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 col-12 reveal fade-in-up" data-delay="500">
+                    <div class="skill-card p-4 rounded shadow">
+                        <i class="fab fa-php fa-3x mb-3 text-primary"></i>
+                        <h4 class="fw-bold">PHP</h4>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 col-12 reveal fade-in-up" data-delay="600">
+                    <div class="skill-card p-4 rounded shadow">
+                        <i class="fas fa-database fa-3x mb-3 text-primary"></i>
+                        <h4 class="fw-bold">MySQL</h4>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 col-12 reveal fade-in-up" data-delay="700">
+                    <div class="skill-card p-4 rounded shadow">
+                        <i class="fas fa-laptop-code fa-3x mb-3 text-primary"></i>
+                        <h4 class="fw-bold">C#/.NET</h4>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 col-12 reveal fade-in-up" data-delay="800">
+                    <div class="skill-card p-4 rounded shadow">
+                        <i class="fab fa-laravel fa-3x mb-3 text-primary"></i>
+                        <h4 class="fw-bold">Laravel</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio-section py-5">
+        <div class="container">
+            <h2 class="text-center mb-5 reveal fade-in-up">My Projects</h2>
+            <div class="text-center mb-4 reveal fade-in-up">
+                <button class="btn btn-outline-primary mx-2 portfolio-filter active" data-filter="all">All</button>
+                <button class="btn btn-outline-primary mx-2 portfolio-filter" data-filter="web">Web Development</button>
+                <button class="btn btn-outline-primary mx-2 portfolio-filter" data-filter="design">UI/UX Design</button>
+                
+            </div>
+            <div class="row g-4 portfolio-grid">
+                <!-- Project items will be dynamically loaded here by JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section py-5">
+        <div class="container">
+            <h2 class="text-center mb-5 reveal fade-in-up">Get In Touch</h2>
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <form id="contactForm" action="https://formspree.io/f/mkgbdovd" method="POST" class="contact-form p-4 p-md-5 rounded shadow reveal fade-in-up">
+                        <div class="mb-3">
+                            <label for="name" class="form-label">Name</label>
+                            <input type="text" class="form-control" id="name" name="name" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Email address</label>
+                            <input type="email" class="form-control" id="email" name="email" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="message" class="form-label">Message</label>
+                            <textarea class="form-control" id="message" name="message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary custom-btn">Send Message</button>
+                        <div id="form-status" class="mt-3"></div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Theme Toggle Button -->
+    <div class="theme-toggle-container">
+        <button class="btn btn-outline-secondary" id="darkModeToggle">
+            <i class="fas fa-moon"></i>
+        </button>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer-section py-4 text-center bg-dark text-white">
+        <div class="container">
+            <p>&copy; 2024 Your Name. All rights reserved.</p>
+            <div class="social-icons mb-3">
+                <a href="#" class="text-white mx-2"><i class="fab fa-linkedin fa-2x"></i></a>
+                <a href="#" class="text-white mx-2"><i class="fab fa-github fa-2x"></i></a>
+                <a href="#" class="text-white mx-2"><i class="fab fa-twitter fa-2x"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <!-- Custom JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>

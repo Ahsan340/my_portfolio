@@ -233,14 +233,14 @@ const projects = [
             image: 'images/portfolio.png',
             category: 'design',
             githubRepo: 'https://github.com/Ahsan340/my_portfolio'
-        }
+        },
         {
             title: 'ABCD Mall Online',
             description: 'An online mall website for booking movie tickets and see information with adminpanel control made with .net',
             image: 'https://via.placeholder.com/400x300/d4edda/28a745?text=Mobile+App',
             category: 'web',
             githubRepo: 'https://github.com/Ahsan340/ABCD-Mall.net'
-        },
+        }
         // {
         //     title: 'Data Visualization Project',
         //     description: 'Interactive data visualization using D3.js.',

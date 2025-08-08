@@ -215,7 +215,7 @@ const projects = [
     },
     {
         title: 'E-commerce cozastore',
-        description: 'An e-commerce prototype built with vanilla JavaScript.',
+        description: 'An e-commerce online shopping store with adminpanel made with php.',
         image: 'images/coza.png',
         category: 'web',
         githubRepo: 'https://github.com/Ahsan340/php_mini_pro'
@@ -232,16 +232,15 @@ const projects = [
             description: 'My personl ui design portfolio made with html,css,js including dark mode',
             image: 'images/portfolio.png',
             category: 'design',
-            githubRepo: '#'
+            githubRepo: 'https://github.com/Ahsan340/my_portfolio'
         }
-        // {
-        //     title: 'Mobile App Concept',
-        //     description: 'UI/UX design for a minimalist mobile application.',
-        //     image: 'https://via.placeholder.com/400x300/d4edda/28a745?text=Mobile+App',
-        //     category: 'design',
-        //     liveDemo: '#',
-        //     githubRepo: '#'
-        // },
+        {
+            title: 'ABCD Mall Online',
+            description: 'An online mall website for booking movie tickets and see information with adminpanel control made with .net',
+            image: 'https://via.placeholder.com/400x300/d4edda/28a745?text=Mobile+App',
+            category: 'web',
+            githubRepo: 'https://github.com/Ahsan340/ABCD-Mall.net'
+        },
         // {
         //     title: 'Data Visualization Project',
         //     description: 'Interactive data visualization using D3.js.',

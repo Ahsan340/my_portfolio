@@ -237,7 +237,7 @@ const projects = [
         {
             title: 'ABCD Mall Online',
             description: 'An online mall website for booking movie tickets and see information with adminpanel control made with .net',
-            image: 'https://via.placeholder.com/400x300/d4edda/28a745?text=Mobile+App',
+            image: 'images/abcdmall.png',
             category: 'web',
             githubRepo: 'https://github.com/Ahsan340/ABCD-Mall.net'
         }
